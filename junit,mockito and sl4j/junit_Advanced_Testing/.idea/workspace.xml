@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="84d9e0ab-41c9-4795-9dea-8b648735f960" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../AAA_Pattern/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AAA_Pattern/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AAA_Pattern/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AAA_Pattern/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AAA_Pattern/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AAA_Pattern/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AAA_Pattern/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AAA_Pattern/src/test/java/org/example/MainTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assertions_in_Junit/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assertions_in_Junit/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assertions_in_Junit/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assertions_in_Junit/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assertions_in_Junit/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assertions_in_Junit/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assertions_in_Junit/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assertions_in_Junit/src/test/java/AssertionsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SettingUpJunit/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SettingUpJunit/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SettingUpJunit/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SettingUpJunit/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SettingUpJunit/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SettingUpJunit/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SettingUpJunit/src/main/java/org/example/TestClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SettingUpJunit/src/test/java/org/example/TestClassTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WritingBasicJuitTests/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WritingBasicJuitTests/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WritingBasicJuitTests/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WritingBasicJuitTests/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WritingBasicJuitTests/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WritingBasicJuitTests/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WritingBasicJuitTests/src/main/java/org/example/ExampleTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WritingBasicJuitTests/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WritingBasicJuitTests/src/test/java/org/example/ExampleTestsTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_C:/Users/kittu/OneDrive/Desktop/Cognizant-deepSkilling/programminglanguages/module-4 junit,mockito and sl4j/junit_Advanced_Testing" value="3FVB4m7iOHlGCBZZUA2iRZyQMCY" />
+    </persistenceIdMap>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="3FVB4m7iOHlGCBZZUA2iRZyQMCY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/kittu/OneDrive/Desktop/Cognizant-deepSkilling/programminglanguages/module-4 junit,mockito and sl4j/junit_Advanced_Testing"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="84d9e0ab-41c9-4795-9dea-8b648735f960" name="Changes" comment="" />
+      <created>1782150169915</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1782150169915</updated>
+    </task>
+    <servers />
+  </component>
+</project>
