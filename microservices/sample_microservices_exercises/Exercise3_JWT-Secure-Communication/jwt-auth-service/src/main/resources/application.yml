@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: jwt-auth-service
+
+app:
+  jwt:
+    # Base64-encoded 256-bit key, generated with `openssl rand -base64 32`.
+    # This is fine for running the demo locally, but for anything real,
+    # generate your own and inject it via an environment variable
+    # (e.g. APP_JWT_SECRET) instead of committing it to source control.
+    secret:jjhbbdfcndk

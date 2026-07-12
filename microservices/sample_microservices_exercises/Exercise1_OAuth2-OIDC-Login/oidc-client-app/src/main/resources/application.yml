@@ -1,0 +1,41 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: oidc-client-app
+
+  security:
+    oauth2:
+      client:
+        registration:
+          # "google" is one of Spring Security's built-in providers
+          # (CommonOAuth2Provider), so unlike the original exercise we
+          # only need to supply the client-id/secret here - the
+          # authorization/token/user-info endpoints and the
+          # user-name-attribute ("sub") are already known to Spring.
+          google:
+            client-id: YOUR_GOOGLE_CLIENT_ID
+            client-secret: YOUR_GOOGLE_CLIENT_SECRET
+            scope:
+              - openid
+              - profile
+              - email
+
+        # ---------------------------------------------------------------
+        # If you'd rather point this at a generic/self-hosted OIDC
+        # provider (Keycloak, Okta, Auth0, ...) instead of Google, remove
+        # the "google" block above and use something like this instead,
+        # relying on OIDC discovery instead of hand-listing every endpoint:
+        #
+        # registration:
+        #   my-provider:
+        #     client-id: YOUR_CLIENT_ID
+        #     client-secret: YOUR_CLIENT_SECRET
+        #     scope: openid, profile, email
+        #     authorization-grant-type: authorization_code
+        #     redirect-uri: "{baseUrl}/login/oauth2/code/{registrationId}"
+        # provider:
+        #   my-provider:
+        #     issuer-uri: https://your-issuer.example.com/realms/your-realm
+        # ---------------------------------------------------------------
