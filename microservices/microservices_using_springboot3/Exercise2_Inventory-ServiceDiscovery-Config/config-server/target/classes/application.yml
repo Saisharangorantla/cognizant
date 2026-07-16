@@ -1,0 +1,18 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-server
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        # "native" backend: serve config from files on the classpath
+        # instead of a git repository. Simplest possible setup for a
+        # local exercise - no repo/network dependency required. Swap
+        # this for a "git" backend (server.git.uri=...) to point at a
+        # real config repository.
+        native:
+          search-locations: classpath:/config-repo

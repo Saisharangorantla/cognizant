@@ -1,0 +1,6 @@
+# Config specific to product-service (matches its spring.application.name).
+product-service:
+  default-currency: USD
+
+greeting:
+  message: "Hello from product-service, configured centrally"

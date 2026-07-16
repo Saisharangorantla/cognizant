@@ -1,0 +1,17 @@
+server:
+  port: 8761
+
+spring:
+  application:
+    name: eureka-server
+
+eureka:
+  client:
+    # This instance is the registry itself, so it doesn't need to
+    # register with (or fetch a registry from) another Eureka instance.
+    register-with-eureka: false
+    fetch-registry: false
+  server:
+    # Don't wait ~90s before evicting stale instances - much friendlier
+    # for a local, single-node development setup.
+    enable-self-preservation: false

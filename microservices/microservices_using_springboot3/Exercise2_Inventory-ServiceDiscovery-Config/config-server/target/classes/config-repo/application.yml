@@ -1,0 +1,6 @@
+# Shared defaults handed out to every client that pulls from this config server.
+inventory:
+  low-stock-threshold: 5
+
+greeting:
+  message: "Config pulled centrally from config-server"

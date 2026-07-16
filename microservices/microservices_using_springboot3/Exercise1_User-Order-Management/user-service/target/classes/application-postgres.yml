@@ -1,0 +1,15 @@
+# Activate with: --spring.profiles.active=postgres
+# (and start a local Postgres, e.g. `docker run -p 5432:5432 -e POSTGRES_PASSWORD=postgres postgres:16`)
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/userdb
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
