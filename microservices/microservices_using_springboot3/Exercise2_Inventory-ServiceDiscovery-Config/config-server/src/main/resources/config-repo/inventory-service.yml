@@ -1,0 +1,6 @@
+# Config specific to inventory-service (matches its spring.application.name).
+inventory:
+  low-stock-threshold: 3
+
+greeting:
+  message: "Hello from inventory-service, configured centrally"

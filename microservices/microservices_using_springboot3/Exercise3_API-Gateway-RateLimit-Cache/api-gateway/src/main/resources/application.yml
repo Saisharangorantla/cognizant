@@ -1,0 +1,55 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: api-gateway
+
+  cloud:
+    gateway:
+      # Built-in local (Caffeine-backed) response cache - no Redis needed.
+      # Applied per-route below via the "LocalResponseCache" filter.
+      filter:
+        local-response-cache:
+          enabled: true
+
+      routes:
+        - id: customer_route
+          uri: http://localhost:8081
+          predicates:
+            - Path=/api/customers/**
+          filters:
+            # Public path is /api/customers/**, but customer-service only
+            # knows about /customers/** - this is the "path rewriting" requirement.
+            - RewritePath=/api/customers/(?<segment>.*), /customers/$\{segment}
+            - name: RateLimit
+              args:
+                capacity: 5
+                refillTokens: 5
+                refillPeriodSeconds: 10
+            - name: LocalResponseCache
+              args:
+                timeToLive: 30s
+                size: 10MB
+
+        - id: billing_route
+          uri: http://localhost:8082
+          predicates:
+            - Path=/api/billing/**
+          filters:
+            - RewritePath=/api/billing/(?<segment>.*), /billing/$\{segment}
+            - name: RateLimit
+              args:
+                capacity: 5
+                refillTokens: 5
+                refillPeriodSeconds: 10
+            - name: LocalResponseCache
+              args:
+                timeToLive: 30s
+                size: 10MB
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,gateway
